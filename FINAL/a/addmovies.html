@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>ADD MOVIES *** ONLY FOR ADMINS****</title>
+</head>
+<body>
+<h1>*** ONLY FOR ADMINS****</h1>
+<h1>Add Movies to DATABASE</h1>
+<font color=”#ff0000”>A note to all Admins "With great power comes great responsibility..." </font>
+<h2>AVINASH SHAH 2018 Spring - IT 635102 </h2>
+	
+	<form action="addmovies.php" method="post">
+	
+		Movie Title : <input type="text" name="inc_movie_title"> Example: "About Schmidt" (Without Quotes)
+		<br/>
+		Movie Year  : <input type="number" name="inc_movie_year"> Example: "2002" (Without Quotes)
+		<br/>
+		Movie Director : <input type="text" name="inc_movie_director"> Example: "Alexander Payne" (Without Quotes)
+		<br/>
+		Movie Studio : <input type="text" name="inc_movie_studio"> Example: "New Line Cinema" (Without Quotes)
+		<br/>
+		Movie IMDB LINK: <input type="text" name="inc_movie_imdb"> Example: "http://www.imdb.com/title/tt0257360" (Without Quotes)
+		<br/>
+		Movie Source : <input type="text" name="inc_movie_source"> Example: "BluRay" (Without Quotes)
+		<br/>
+		Movie FileName : <input type="text" name="inc_movie_filename"> Example: "About.Schmidt.2002.1080p.BluRay.X264-AMIABLE.mkv" (Without Quotes)
+		<br/>			   
+		Movie FilesizeGB : <input type="number" step="any" name="inc_movie_gb"> Example: "9" (Without Quotes)
+		<br/>			   
+		Movie Genres (max 3) : <input type="text" name="inc_movie_genre"> Example: "Action, Comedy, Fantasy" (Max 3 Genres) (Without Quotes)
+		<br/>
+		<br/>
+		<br/>
+					   <input type="submit" value="INSERT MOVIE INTO DB">
+	</form>
+<br/>
+<h1>Return to the Admin Functions Page </h1> 
+<a href="http://ec2-18-218-36-211.us-east-2.compute.amazonaws.com/a/aindex.html">Admin Function Page</a>	
+<h1>BE SURE TO LOG OUT WHEN DONE </h1> 
+<a href="http://ec2-18-218-36-211.us-east-2.compute.amazonaws.com/logout.php">LOG OUT</a>
+</body>
+</html>
